@@ -1,0 +1,208 @@
+/**************************************
+		    Common CSS
+***************************************/
+section{
+	padding: 0 !important;
+}
+
+/**************************************
+		1.Header Section CSS
+***************************************/
+#mainNav.navbar-shrink {
+     background-color: #001C37 !important;
+}
+#mainNav .navbar-nav>li.nav-item>a.nav-link,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus{
+    color: #fff !important;
+}
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:hover{
+    color: #FDE428 !important;
+}
+#mainNav .navbar-nav>li.nav-item>a.nav-link.active,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active{
+    color: #FDE428 !important;
+}
+.slider{
+	background: url(../img/slider.png) !important ;
+	height: 80%;
+}
+.slider-img{
+	-webkit-transition: ease .5s all;
+	-moz-transition: ease .5s all;
+	-o-transition: ease .5s all;
+	transition: ease .5s all;
+}
+.slider-img:hover{
+	-webkit-transform: scale(1.02,1.02) !important;
+	-moz-transform: scale(1.02,1.02) !important;
+	-o-transform: scale(1.02,1.02) !important;
+	transform: scale(1.02,1.02)!important;
+}
+/**************************************
+		2. About Section CSS
+***************************************/
+.about{
+	background-color: #fff !important;
+}
+.about-left{
+	padding: 3em .8em !important;
+}
+.about-left h3{
+	color: #002e5b !important;
+	font-weight: bold;
+	width: 70%;
+	padding-bottom: 8px;	
+}
+.about-left h5{
+	color: #666666 !important;
+	padding-bottom: 8px;
+}
+.about-left p{
+	color: #333333 ;
+}
+.about-left a{
+	font-size: 18px;
+	color: #002e5b;
+	font-weight: bold;
+	border-bottom: 2px solid #002e5b; 
+	padding-bottom: 4px.
+}
+
+.about-left a:hover{
+	color:#FDE428;
+	text-decoration: none;
+	border-bottom: 2px solid #FDE428;
+}
+.vartical{
+	position: absolute;
+	background-color: #fde52c;
+	width: 30%;
+	height: 100%;
+	left: 280px;
+}
+.about-img{
+	position: relative;
+	top: 100px;
+	left: 170px;
+	box-shadow: 1px 2px #FDE428;
+	-webkit-transition: ease .8s all;
+	-moz-transition: ease .8s all;
+	-o-transition: ease .8s all;
+	transition: ease .8s all;
+}
+.about-img:hover{
+	-webkit-transform: scale(1.05,1.05);
+	-moz-transform: scale(1.05,1.05);
+	-o-transform: scale(1.05,1.05);
+	transform: scale(1.05,1.05);
+}
+/**************************************
+		3.Service Section CSS
+***************************************/
+#services{
+	background-color: #f4f4f4;
+}
+.services-left,
+.services-right{
+	padding: 3em 0; 
+}
+.services-right h3{
+	color: #002e5b !important;
+	font-weight: bold;
+	width: 70%;
+	padding-bottom: 8px;	
+}
+.services-right h5{
+	color: #666666 !important;
+	padding-bottom: 8px;
+}
+.services-right p{
+	color: #333333 ;
+}
+.services-right a{
+	font-size: 18px;
+	color: #002e5b;
+	font-weight: bold;
+	border-bottom: 2px solid #002e5b; 
+	padding-bottom: 4px.
+}
+
+.services-right a:hover{
+	color:#FDE428;
+	text-decoration: none;
+	border-bottom: 2px solid #FDE428;
+}
+/**************************************
+		4.Contarct Now Section CSS
+***************************************/
+.contract-now{
+	background-color: #002e5b;
+	height: 60px;
+}
+.contract-now p{
+	color: #fff;
+	padding: 15px 0px;
+	font-family: roboto;
+}
+.contract-now button{
+	float: right;
+	margin: 12px 0px;
+	background: transparent;
+	border:1px solid #FDE428;
+	padding: 5px 8px;
+	border-radius: 3px;
+}
+.contract-now button a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+.contract-now button:hover,
+.contract-now button a:hover{
+	background: #FDE428;
+	color:#002e5b;
+}
+/**************************************
+	5.Populer Services Section CSS
+***************************************/
+.popular{
+	padding: 3em;
+}
+.popular h3{
+	color: #002e5b !important;
+	font-weight: bold;
+	width: 100%;
+	padding-bottom: 8px;
+	text-align: center;
+}
+.popular p{
+	color: #333333 ;
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+
+}
+.img-hover{
+	padding: 5px 0px;
+}
+.popular-img h5{
+	color: #002e5b !important;
+	font-weight: bold;
+	padding: 2px 0px;
+}
+.popular-img p{
+	color: #333333 ;
+}
+.popular-img img{
+	z-index: -1;
+	position: relative;
+}
+.up{
+	color: yellow;
+	position: absolute;
+}
+.up:hover{
+	z-index: +1;
+}
